@@ -1,0 +1,358 @@
+{
+  "paragraphs": [
+    {
+      "title": "Using drill to query flat json",
+      "user": "anonymous",
+      "dateUpdated": "Oct 9, 2017 5:37:34 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/sql",
+        "title": true,
+        "tableHide": true,
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1507566915836_1373288097",
+      "id": "20171009-173515_20291850",
+      "dateCreated": "Oct 9, 2017 5:35:15 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Overall json structure",
+      "text": "select * from dfs.my.`NYET.jsonl` t where  event \u003d \u0027message\u0027 LIMIT 10",
+      "user": "anonymous",
+      "dateUpdated": "Oct 9, 2017 5:46:30 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/sql",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "event\tid\tservice\tout\tfrom\ttext\tflags\tto\tunread\tdate\tmedia\treply_id\tmention\tfwd_date\tfwd_from\nmessage\t020000009dd7d000434c0600000000000000000000000000\tfalse\tfalse\t{\"id\":\"$01000000610c4901c98b7dfcf0c76782\",\"when\":\"2017-10-06 19:43:20\",\"peer_type\":\"user\",\"peer_id\":21564513,\"first_name\":\"Милежик\",\"print_name\":\"Милежик\",\"flags\":196609,\"last_name\":\"\",\"username\":\"Dee_Milezhik\",\"phone\":\"79637685254\"}\tКек\t256\t{\"members_num\":15,\"id\":\"$020000009dd7d0000000000000000000\",\"admin\":{\"id\":\"$01000000000000000000000000000000\",\"peer_type\":\"user\",\"peer_id\":0,\"print_name\":\"user#0\"},\"peer_type\":\"chat\",\"peer_id\":13686685,\"print_name\":\"NYET:_Фэтблэймеры,_фэтхэйтеры,_флеймбластеры_и_Димка\",\"flags\":1,\"title\":\"NYET: Фэтблэймеры, фэтхэйтеры, флеймбластеры и Димка\"}\tfalse\t1507307026\t{}\tnull\tnull\tnull\t{}\nmessage\t020000009dd7d000424c0600000000000000000000000000\tfalse\tfalse\t{\"id\":\"$01000000610c4901c98b7dfcf0c76782\",\"when\":\"2017-10-06 19:43:20\",\"peer_type\":\"user\",\"peer_id\":21564513,\"first_name\":\"Милежик\",\"print_name\":\"Милежик\",\"flags\":196609,\"last_name\":\"\",\"username\":\"Dee_Milezhik\",\"phone\":\"79637685254\"}\tМожет так случиться, что и я\t256\t{\"members_num\":15,\"id\":\"$020000009dd7d0000000000000000000\",\"admin\":{\"id\":\"$01000000000000000000000000000000\",\"peer_type\":\"user\",\"peer_id\":0,\"print_name\":\"user#0\"},\"peer_type\":\"chat\",\"peer_id\":13686685,\"print_name\":\"NYET:_Фэтблэймеры,_фэтхэйтеры,_флеймбластеры_и_Димка\",\"flags\":1,\"title\":\"NYET: Фэтблэймеры, фэтхэйтеры, флеймбластеры и Димка\"}\tfalse\t1507307025\t{}\tnull\tnull\tnull\t{}\nmessage\t020000009dd7d000414c0600000000000000000000000000\tfalse\tfalse\t{\"id\":\"$01000000610c4901c98b7dfcf0c76782\",\"when\":\"2017-10-06 19:43:20\",\"peer_type\":\"user\",\"peer_id\":21564513,\"first_name\":\"Милежик\",\"print_name\":\"Милежик\",\"flags\":196609,\"last_name\":\"\",\"username\":\"Dee_Milezhik\",\"phone\":\"79637685254\"}\tУбей не помню\t256\t{\"members_num\":15,\"id\":\"$020000009dd7d0000000000000000000\",\"admin\":{\"id\":\"$01000000000000000000000000000000\",\"peer_type\":\"user\",\"peer_id\":0,\"print_name\":\"user#0\"},\"peer_type\":\"chat\",\"peer_id\":13686685,\"print_name\":\"NYET:_Фэтблэймеры,_фэтхэйтеры,_флеймбластеры_и_Димка\",\"flags\":1,\"title\":\"NYET: Фэтблэймеры, фэтхэйтеры, флеймбластеры и Димка\"}\tfalse\t1507306892\t{}\tnull\tnull\tnull\t{}\nmessage\t020000009dd7d000404c0600000000000000000000000000\tfalse\tfalse\t{\"id\":\"$01000000610c4901c98b7dfcf0c76782\",\"when\":\"2017-10-06 19:43:20\",\"peer_type\":\"user\",\"peer_id\":21564513,\"first_name\":\"Милежик\",\"print_name\":\"Милежик\",\"flags\":196609,\"last_name\":\"\",\"username\":\"Dee_Milezhik\",\"phone\":\"79637685254\"}\tКто мёд заказывал\t256\t{\"members_num\":15,\"id\":\"$020000009dd7d0000000000000000000\",\"admin\":{\"id\":\"$01000000000000000000000000000000\",\"peer_type\":\"user\",\"peer_id\":0,\"print_name\":\"user#0\"},\"peer_type\":\"chat\",\"peer_id\":13686685,\"print_name\":\"NYET:_Фэтблэймеры,_фэтхэйтеры,_флеймбластеры_и_Димка\",\"flags\":1,\"title\":\"NYET: Фэтблэймеры, фэтхэйтеры, флеймбластеры и Димка\"}\tfalse\t1507306886\t{}\tnull\tnull\tnull\t{}\nmessage\t020000009dd7d0003f4c0600000000000000000000000000\tfalse\tfalse\t{\"id\":\"$01000000610c4901c98b7dfcf0c76782\",\"when\":\"2017-10-06 19:43:20\",\"peer_type\":\"user\",\"peer_id\":21564513,\"first_name\":\"Милежик\",\"print_name\":\"Милежик\",\"flags\":196609,\"last_name\":\"\",\"username\":\"Dee_Milezhik\",\"phone\":\"79637685254\"}\tЯ\t256\t{\"members_num\":15,\"id\":\"$020000009dd7d0000000000000000000\",\"admin\":{\"id\":\"$01000000000000000000000000000000\",\"peer_type\":\"user\",\"peer_id\":0,\"print_name\":\"user#0\"},\"peer_type\":\"chat\",\"peer_id\":13686685,\"print_name\":\"NYET:_Фэтблэймеры,_фэтхэйтеры,_флеймбластеры_и_Димка\",\"flags\":1,\"title\":\"NYET: Фэтблэймеры, фэтхэйтеры, флеймбластеры и Димка\"}\tfalse\t1507306869\t{}\tnull\tnull\tnull\t{}\nmessage\t020000009dd7d0003e4c0600000000000000000000000000\tfalse\ttrue\t{\"id\":\"$01000000f0813807082b0172d79c63cc\",\"when\":\"2017-10-06 20:07:38\",\"peer_type\":\"user\",\"peer_id\":121143792,\"first_name\":\"Gleb\",\"print_name\":\"Gleb_Lobov\",\"flags\":589825,\"last_name\":\"Lobov\",\"username\":\"lobzison\",\"phone\":\"79150026987\"}\tКто газировки заказывал?\t258\t{\"members_num\":15,\"id\":\"$020000009dd7d0000000000000000000\",\"admin\":{\"id\":\"$01000000000000000000000000000000\",\"peer_type\":\"user\",\"peer_id\":0,\"print_name\":\"user#0\"},\"peer_type\":\"chat\",\"peer_id\":13686685,\"print_name\":\"NYET:_Фэтблэймеры,_фэтхэйтеры,_флеймбластеры_и_Димка\",\"flags\":1,\"title\":\"NYET: Фэтблэймеры, фэтхэйтеры, флеймбластеры и Димка\"}\tfalse\t1507306754\t{}\tnull\tnull\tnull\t{}\nmessage\t020000009dd7d0003d4c0600000000000000000000000000\tfalse\tfalse\t{\"id\":\"$01000000610c4901c98b7dfcf0c76782\",\"when\":\"2017-10-06 19:43:20\",\"peer_type\":\"user\",\"peer_id\":21564513,\"first_name\":\"Милежик\",\"print_name\":\"Милежик\",\"flags\":196609,\"last_name\":\"\",\"username\":\"Dee_Milezhik\",\"phone\":\"79637685254\"}\tnull\t256\t{\"members_num\":15,\"id\":\"$020000009dd7d0000000000000000000\",\"admin\":{\"id\":\"$01000000000000000000000000000000\",\"peer_type\":\"user\",\"peer_id\":0,\"print_name\":\"user#0\"},\"peer_type\":\"chat\",\"peer_id\":13686685,\"print_name\":\"NYET:_Фэтблэймеры,_фэтхэйтеры,_флеймбластеры_и_Димка\",\"flags\":1,\"title\":\"NYET: Фэтблэймеры, фэтхэйтеры, флеймбластеры и Димка\"}\tfalse\t1507305990\t{\"type\":\"document\"}\tnull\tnull\tnull\t{}\nmessage\t020000009dd7d0003c4c0600000000000000000000000000\tfalse\tfalse\t{\"id\":\"$01000000610c4901c98b7dfcf0c76782\",\"when\":\"2017-10-06 19:43:20\",\"peer_type\":\"user\",\"peer_id\":21564513,\"first_name\":\"Милежик\",\"print_name\":\"Милежик\",\"flags\":196609,\"last_name\":\"\",\"username\":\"Dee_Milezhik\",\"phone\":\"79637685254\"}\tnull\t256\t{\"members_num\":15,\"id\":\"$020000009dd7d0000000000000000000\",\"admin\":{\"id\":\"$01000000000000000000000000000000\",\"peer_type\":\"user\",\"peer_id\":0,\"print_name\":\"user#0\"},\"peer_type\":\"chat\",\"peer_id\":13686685,\"print_name\":\"NYET:_Фэтблэймеры,_фэтхэйтеры,_флеймбластеры_и_Димка\",\"flags\":1,\"title\":\"NYET: Фэтблэймеры, фэтхэйтеры, флеймбластеры и Димка\"}\tfalse\t1507305980\t{\"type\":\"photo\",\"caption\":\"\"}\tnull\tnull\tnull\t{}\nmessage\t020000009dd7d000374c0600000000000000000000000000\tfalse\tfalse\t{\"id\":\"$01000000bb10620570afa3c8d8633a04\",\"peer_type\":\"user\",\"peer_id\":90312891,\"first_name\":\"Haze\",\"print_name\":\"Haze_Holy\",\"flags\":196609,\"last_name\":\"Holy\",\"username\":\"Hazz3\",\"phone\":\"79153688261\"}\tnull\t256\t{\"members_num\":15,\"id\":\"$020000009dd7d0000000000000000000\",\"admin\":{\"id\":\"$01000000000000000000000000000000\",\"peer_type\":\"user\",\"peer_id\":0,\"print_name\":\"user#0\"},\"peer_type\":\"chat\",\"peer_id\":13686685,\"print_name\":\"NYET:_Фэтблэймеры,_фэтхэйтеры,_флеймбластеры_и_Димка\",\"flags\":1,\"title\":\"NYET: Фэтблэймеры, фэтхэйтеры, флеймбластеры и Димка\"}\tfalse\t1507298641\t{\"type\":\"document\"}\tnull\tnull\tnull\t{}\nmessage\t020000009dd7d000364c0600000000000000000000000000\tfalse\tfalse\t{\"id\":\"$01000000bb10620570afa3c8d8633a04\",\"peer_type\":\"user\",\"peer_id\":90312891,\"first_name\":\"Haze\",\"print_name\":\"Haze_Holy\",\"flags\":196609,\"last_name\":\"Holy\",\"username\":\"Hazz3\",\"phone\":\"79153688261\"}\tТы посрал?\t256\t{\"members_num\":15,\"id\":\"$020000009dd7d0000000000000000000\",\"admin\":{\"id\":\"$01000000000000000000000000000000\",\"peer_type\":\"user\",\"peer_id\":0,\"print_name\":\"user#0\"},\"peer_type\":\"chat\",\"peer_id\":13686685,\"print_name\":\"NYET:_Фэтблэймеры,_фэтхэйтеры,_флеймбластеры_и_Димка\",\"flags\":1,\"title\":\"NYET: Фэтблэймеры, фэтхэйтеры, флеймбластеры и Димка\"}\tfalse\t1507298627\t{}\tnull\tnull\tnull\t{}\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1507374517538_-953409404",
+      "id": "20171007-120837_530986298",
+      "dateCreated": "Oct 7, 2017 12:08:37 PM",
+      "dateStarted": "Oct 7, 2017 1:01:53 PM",
+      "dateFinished": "Oct 7, 2017 1:01:54 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Number of messages per user",
+      "text": "select t.`from`.first_name, count(*) \nfrom dfs.my.`NYET.jsonl` t \nwhere  \nevent \u003d \u0027message\u0027 \nand ( lower(t.`from`.username) not like \u0027%bot\u0027 or t.`from`.username is null)\ngroup by t.`from`.first_name \norder by 2 desc",
+      "user": "anonymous",
+      "dateUpdated": "Oct 9, 2017 5:37:54 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "multiBarChart",
+              "height": 230.0,
+              "optionOpen": false,
+              "setting": {
+                "multiBarChart": {
+                  "stacked": true
+                }
+              },
+              "commonSetting": {},
+              "keys": [
+                {
+                  "name": "EXPR$0",
+                  "index": 0.0,
+                  "aggr": "sum"
+                }
+              ],
+              "groups": [],
+              "values": [
+                {
+                  "name": "EXPR$1",
+                  "index": 1.0,
+                  "aggr": "sum"
+                }
+              ]
+            },
+            "helium": {}
+          }
+        },
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/sql",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "EXPR$0\tEXPR$1\nМилежик\t70517\nGleb\t36563\nМатвей\t22791\nHaze\t22679\nТемик\t20627\nEvgeniy\t15955\nНиколас\t15547\nMax\t9202\nEkaterina\t9066\nDenis\t5363\nРуслан\t4936\nСкопа\t3210\nАрмянин\t893\nRinat\t330\nnull\t233\nKsu\t131\nNyasha\t110\nAlexander\t62\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1507374513459_-514810982",
+      "id": "20171007-120833_1767093159",
+      "dateCreated": "Oct 7, 2017 12:08:33 PM",
+      "dateStarted": "Oct 7, 2017 1:22:29 PM",
+      "dateFinished": "Oct 7, 2017 1:22:33 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "First message date",
+      "text": "select min(t.`date`) from dfs.my.`NYET.jsonl` t where  event \u003d \u0027message\u0027  LIMIT 30",
+      "user": "anonymous",
+      "dateUpdated": "Oct 9, 2017 5:38:41 PM",
+      "config": {
+        "colWidth": 3.0,
+        "enabled": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 166.0,
+              "optionOpen": false
+            },
+            "helium": {}
+          }
+        },
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/sql",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "EXPR$0\n1440687962\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1507374650067_-1134040528",
+      "id": "20171007-121050_17992397",
+      "dateCreated": "Oct 7, 2017 12:10:50 PM",
+      "dateStarted": "Oct 7, 2017 1:04:51 PM",
+      "dateFinished": "Oct 7, 2017 1:04:55 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Bot\u0027s messages",
+      "text": "select * from dfs.my.`NYET.jsonl` t where  event \u003d \u0027message\u0027 and t.`from`.first_name \u003d \u0027Nyetbot\u0027 LIMIT 10",
+      "user": "anonymous",
+      "dateUpdated": "Oct 9, 2017 5:39:05 PM",
+      "config": {
+        "colWidth": 4.0,
+        "enabled": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 168.0,
+              "optionOpen": false
+            }
+          }
+        },
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/sql",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "event\tid\tservice\tout\tfrom\ttext\tflags\tto\tunread\tdate\tmedia\treply_id\tmention\tfwd_date\tfwd_from\nmessage\t020000009dd7d00033410600000000000000000000000000\tfalse\tfalse\t{\"id\":\"$0100000049401d194b2ed9c6d26b49e4\",\"peer_type\":\"user\",\"peer_id\":421347401,\"first_name\":\"Nyetbot\",\"print_name\":\"Nyetbot\",\"flags\":1,\"last_name\":\"\",\"username\":\"PSHEKBOT\"}\tnie liryczny język jakiś\t256\t{\"members_num\":15,\"id\":\"$020000009dd7d0000000000000000000\",\"admin\":{\"id\":\"$01000000000000000000000000000000\",\"peer_type\":\"user\",\"peer_id\":0,\"print_name\":\"user#0\"},\"peer_type\":\"chat\",\"peer_id\":13686685,\"print_name\":\"NYET:_Фэтблэймеры,_фэтхэйтеры,_флеймбластеры_и_Димка\",\"flags\":1,\"title\":\"NYET: Фэтблэймеры, фэтхэйтеры, флеймбластеры и Димка\"}\tfalse\t1507013197\t{}\tnull\tnull\tnull\t{}\nmessage\t020000009dd7d00028410600000000000000000000000000\tfalse\tfalse\t{\"id\":\"$0100000049401d194b2ed9c6d26b49e4\",\"peer_type\":\"user\",\"peer_id\":421347401,\"first_name\":\"Nyetbot\",\"print_name\":\"Nyetbot\",\"flags\":1,\"last_name\":\"\",\"username\":\"PSHEKBOT\"}\tKasia - tak\t256\t{\"members_num\":15,\"id\":\"$020000009dd7d0000000000000000000\",\"admin\":{\"id\":\"$01000000000000000000000000000000\",\"peer_type\":\"user\",\"peer_id\":0,\"print_name\":\"user#0\"},\"peer_type\":\"chat\",\"peer_id\":13686685,\"print_name\":\"NYET:_Фэтблэймеры,_фэтхэйтеры,_флеймбластеры_и_Димка\",\"flags\":1,\"title\":\"NYET: Фэтблэймеры, фэтхэйтеры, флеймбластеры и Димка\"}\tfalse\t1507012989\t{}\tnull\tnull\tnull\t{}\nmessage\t020000009dd7d00022410600000000000000000000000000\tfalse\tfalse\t{\"id\":\"$0100000049401d194b2ed9c6d26b49e4\",\"peer_type\":\"user\",\"peer_id\":421347401,\"first_name\":\"Nyetbot\",\"print_name\":\"Nyetbot\",\"flags\":1,\"last_name\":\"\",\"username\":\"PSHEKBOT\"}\tLeather, a Clara u Karola ukradła klarnet\t256\t{\"members_num\":15,\"id\":\"$020000009dd7d0000000000000000000\",\"admin\":{\"id\":\"$01000000000000000000000000000000\",\"peer_type\":\"user\",\"peer_id\":0,\"print_name\":\"user#0\"},\"peer_type\":\"chat\",\"peer_id\":13686685,\"print_name\":\"NYET:_Фэтблэймеры,_фэтхэйтеры,_флеймбластеры_и_Димка\",\"flags\":1,\"title\":\"NYET: Фэтблэймеры, фэтхэйтеры, флеймбластеры и Димка\"}\tfalse\t1507012771\t{}\tnull\tnull\tnull\t{}\nmessage\t020000009dd7d00020410600000000000000000000000000\tfalse\tfalse\t{\"id\":\"$0100000049401d194b2ed9c6d26b49e4\",\"peer_type\":\"user\",\"peer_id\":421347401,\"first_name\":\"Nyetbot\",\"print_name\":\"Nyetbot\",\"flags\":1,\"last_name\":\"\",\"username\":\"PSHEKBOT\"}\tTechnologie chmurowe\t256\t{\"members_num\":15,\"id\":\"$020000009dd7d0000000000000000000\",\"admin\":{\"id\":\"$01000000000000000000000000000000\",\"peer_type\":\"user\",\"peer_id\":0,\"print_name\":\"user#0\"},\"peer_type\":\"chat\",\"peer_id\":13686685,\"print_name\":\"NYET:_Фэтблэймеры,_фэтхэйтеры,_флеймбластеры_и_Димка\",\"flags\":1,\"title\":\"NYET: Фэтблэймеры, фэтхэйтеры, флеймбластеры и Димка\"}\tfalse\t1507012602\t{}\tnull\tnull\tnull\t{}\nmessage\t020000009dd7d0001c410600000000000000000000000000\tfalse\tfalse\t{\"id\":\"$0100000049401d194b2ed9c6d26b49e4\",\"peer_type\":\"user\",\"peer_id\":421347401,\"first_name\":\"Nyetbot\",\"print_name\":\"Nyetbot\",\"flags\":1,\"last_name\":\"\",\"username\":\"PSHEKBOT\"}\tAnal karnawał\t256\t{\"members_num\":15,\"id\":\"$020000009dd7d0000000000000000000\",\"admin\":{\"id\":\"$01000000000000000000000000000000\",\"peer_type\":\"user\",\"peer_id\":0,\"print_name\":\"user#0\"},\"peer_type\":\"chat\",\"peer_id\":13686685,\"print_name\":\"NYET:_Фэтблэймеры,_фэтхэйтеры,_флеймбластеры_и_Димка\",\"flags\":1,\"title\":\"NYET: Фэтблэймеры, фэтхэйтеры, флеймбластеры и Димка\"}\tfalse\t1507011110\t{}\tnull\tnull\tnull\t{}\nmessage\t020000009dd7d00005410600000000000000000000000000\tfalse\tfalse\t{\"id\":\"$0100000049401d194b2ed9c6d26b49e4\",\"peer_type\":\"user\",\"peer_id\":421347401,\"first_name\":\"Nyetbot\",\"print_name\":\"Nyetbot\",\"flags\":1,\"last_name\":\"\",\"username\":\"PSHEKBOT\"}\tKutas cipa\t256\t{\"members_num\":15,\"id\":\"$020000009dd7d0000000000000000000\",\"admin\":{\"id\":\"$01000000000000000000000000000000\",\"peer_type\":\"user\",\"peer_id\":0,\"print_name\":\"user#0\"},\"peer_type\":\"chat\",\"peer_id\":13686685,\"print_name\":\"NYET:_Фэтблэймеры,_фэтхэйтеры,_флеймбластеры_и_Димка\",\"flags\":1,\"title\":\"NYET: Фэтблэймеры, фэтхэйтеры, флеймбластеры и Димка\"}\tfalse\t1506973281\t{}\tnull\tnull\tnull\t{}\nmessage\t020000009dd7d000fd400600000000000000000000000000\tfalse\tfalse\t{\"id\":\"$0100000049401d194b2ed9c6d26b49e4\",\"peer_type\":\"user\",\"peer_id\":421347401,\"first_name\":\"Nyetbot\",\"print_name\":\"Nyetbot\",\"flags\":1,\"last_name\":\"\",\"username\":\"PSHEKBOT\"}\tJesteś frajer\t256\t{\"members_num\":15,\"id\":\"$020000009dd7d0000000000000000000\",\"admin\":{\"id\":\"$01000000000000000000000000000000\",\"peer_type\":\"user\",\"peer_id\":0,\"print_name\":\"user#0\"},\"peer_type\":\"chat\",\"peer_id\":13686685,\"print_name\":\"NYET:_Фэтблэймеры,_фэтхэйтеры,_флеймбластеры_и_Димка\",\"flags\":1,\"title\":\"NYET: Фэтблэймеры, фэтхэйтеры, флеймбластеры и Димка\"}\tfalse\t1506973190\t{}\tnull\tnull\tnull\t{}\nmessage\t020000009dd7d000f8400600000000000000000000000000\tfalse\tfalse\t{\"id\":\"$0100000049401d194b2ed9c6d26b49e4\",\"peer_type\":\"user\",\"peer_id\":421347401,\"first_name\":\"Nyetbot\",\"print_name\":\"Nyetbot\",\"flags\":1,\"last_name\":\"\",\"username\":\"PSHEKBOT\"}\t/pshek dupek\t256\t{\"members_num\":15,\"id\":\"$020000009dd7d0000000000000000000\",\"admin\":{\"id\":\"$01000000000000000000000000000000\",\"peer_type\":\"user\",\"peer_id\":0,\"print_name\":\"user#0\"},\"peer_type\":\"chat\",\"peer_id\":13686685,\"print_name\":\"NYET:_Фэтблэймеры,_фэтхэйтеры,_флеймбластеры_и_Димка\",\"flags\":1,\"title\":\"NYET: Фэтблэймеры, фэтхэйтеры, флеймбластеры и Димка\"}\tfalse\t1506973165\t{}\tnull\tnull\tnull\t{}\nmessage\t020000009dd7d000f5400600000000000000000000000000\tfalse\tfalse\t{\"id\":\"$0100000049401d194b2ed9c6d26b49e4\",\"peer_type\":\"user\",\"peer_id\":421347401,\"first_name\":\"Nyetbot\",\"print_name\":\"Nyetbot\",\"flags\":1,\"last_name\":\"\",\"username\":\"PSHEKBOT\"}\tNOW TRANSLATING {\u0027from\u0027: \u0027ru\u0027, \u0027to\u0027: \u0027pl\u0027}\t256\t{\"members_num\":15,\"id\":\"$020000009dd7d0000000000000000000\",\"admin\":{\"id\":\"$01000000000000000000000000000000\",\"peer_type\":\"user\",\"peer_id\":0,\"print_name\":\"user#0\"},\"peer_type\":\"chat\",\"peer_id\":13686685,\"print_name\":\"NYET:_Фэтблэймеры,_фэтхэйтеры,_флеймбластеры_и_Димка\",\"flags\":1,\"title\":\"NYET: Фэтблэймеры, фэтхэйтеры, флеймбластеры и Димка\"}\tfalse\t1506973156\t{}\tnull\tnull\tnull\t{}\nmessage\t020000009dd7d000f3400600000000000000000000000000\tfalse\tfalse\t{\"id\":\"$0100000049401d194b2ed9c6d26b49e4\",\"peer_type\":\"user\",\"peer_id\":421347401,\"first_name\":\"Nyetbot\",\"print_name\":\"Nyetbot\",\"flags\":1,\"last_name\":\"\",\"username\":\"PSHEKBOT\"}\tNOW TRANSLATING {\u0027from\u0027: \u0027pl\u0027, \u0027to\u0027: \u0027ru\u0027}\t256\t{\"members_num\":15,\"id\":\"$020000009dd7d0000000000000000000\",\"admin\":{\"id\":\"$01000000000000000000000000000000\",\"peer_type\":\"user\",\"peer_id\":0,\"print_name\":\"user#0\"},\"peer_type\":\"chat\",\"peer_id\":13686685,\"print_name\":\"NYET:_Фэтблэймеры,_фэтхэйтеры,_флеймбластеры_и_Димка\",\"flags\":1,\"title\":\"NYET: Фэтблэймеры, фэтхэйтеры, флеймбластеры и Димка\"}\tfalse\t1506973154\t{}\tnull\tnull\tnull\t{}\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1507377764692_-90746007",
+      "id": "20171007-130244_1435324159",
+      "dateCreated": "Oct 7, 2017 1:02:44 PM",
+      "dateStarted": "Oct 7, 2017 1:13:48 PM",
+      "dateFinished": "Oct 7, 2017 1:13:49 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Messages per user in last 6 month",
+      "text": "select t.`from`.first_name, count(*) \nfrom dfs.my.`NYET.jsonl` t \nwhere  \nevent \u003d \u0027message\u0027 \nand ( lower(t.`from`.username) not like \u0027%bot\u0027 or t.`from`.username is null)\nand t.`date` \u003e\u003d 1491523200\ngroup by t.`from`.first_name \norder by 2 desc",
+      "user": "anonymous",
+      "dateUpdated": "Oct 9, 2017 5:39:35 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "multiBarChart",
+              "height": 300.0,
+              "optionOpen": false
+            },
+            "helium": {}
+          }
+        },
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/sql",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "EXPR$0\tEXPR$1\nМилежик\t19136\nGleb\t12833\nМатвей\t10685\nТемик\t7985\nMax\t7166\nEvgeniy\t5749\nНиколас\t5030\nHaze\t3868\nEkaterina\t3829\nDenis\t2962\nРуслан\t2909\nСкопа\t1448\nАрмянин\t71\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1507377926255_-1686486875",
+      "id": "20171007-130526_1672945775",
+      "dateCreated": "Oct 7, 2017 1:05:26 PM",
+      "dateStarted": "Oct 7, 2017 1:28:10 PM",
+      "dateFinished": "Oct 7, 2017 1:28:13 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Symbols per user in last 6 month",
+      "text": "select t.`from`.first_name, sum(length(t.`text`)) \nfrom dfs.my.`NYET.jsonl` t \nwhere  \nevent \u003d \u0027message\u0027 \nand ( lower(t.`from`.username) not like \u0027%bot\u0027 or t.`from`.username is null)\nand t.`date` \u003e\u003d 1491523200\ngroup by t.`from`.first_name \norder by 2 desc",
+      "user": "anonymous",
+      "dateUpdated": "Oct 9, 2017 5:39:48 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "multiBarChart",
+              "height": 300.0,
+              "optionOpen": false
+            },
+            "helium": {}
+          }
+        },
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/sql",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "EXPR$0\tEXPR$1\nМилежик\t499438\nGleb\t451226\nМатвей\t357813\nТемик\t288705\nMax\t195394\nНиколас\t154902\nEvgeniy\t151602\nEkaterina\t144166\nРуслан\t117761\nHaze\t87537\nDenis\t81890\nСкопа\t55649\nАрмянин\t1371\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1507379256291_-976721509",
+      "id": "20171007-132736_1562976722",
+      "dateCreated": "Oct 7, 2017 1:27:36 PM",
+      "dateStarted": "Oct 7, 2017 1:33:49 PM",
+      "dateFinished": "Oct 7, 2017 1:33:53 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "user": "anonymous",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1507566983838_1447067941",
+      "id": "20171009-173623_1368548545",
+      "dateCreated": "Oct 9, 2017 5:36:23 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "NYET_01",
+  "id": "2CW4B5GFV",
+  "angularObjects": {
+    "2CG454D1G:shared_process": [],
+    "2CJM3398J:shared_process": [],
+    "2CHKBQDC1:shared_process": [],
+    "2CKR239V2:shared_process": [],
+    "2CMH77894:shared_process": [],
+    "2CG3KGRMA:shared_process": [],
+    "2CGJKKWKC:shared_process": [],
+    "2CJ8M92Q1:shared_process": [],
+    "2CJ85YN4D:shared_process": [],
+    "2CGN16NVF:shared_process": [],
+    "2CJ2JVKJZ:shared_process": [],
+    "2CGC1GUA5:shared_process": [],
+    "2CHX4RVKW:shared_process": []
+  },
+  "config": {},
+  "info": {}
+}
