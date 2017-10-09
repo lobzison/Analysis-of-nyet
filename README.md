@@ -14,4 +14,4 @@ Downloading a data from a telegram chat, and doing analytics on it
 11) What stickers are used in positive/hostile conversation
 12) Wordcount, cant skip this one, lol
 13) Count "heatness" of convo. The lower delay between the messages/higher symbols per minute - the hotter the conversation is
-14) tbd
+14) tbd import ijson
