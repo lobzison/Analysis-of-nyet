@@ -1,5 +1,6 @@
 # Analysis of nyet
 Downloading a data from a telegram chat, and doing analytics on it
+
 # Questions to answer
 1) Number of messages/symbols per user
 2) Historical activity
@@ -15,3 +16,11 @@ Downloading a data from a telegram chat, and doing analytics on it
 12) Wordcount, cant skip this one, lol
 13) Count "heatness" of convo. The lower delay between the messages/higher symbols per minute - the hotter the conversation is
 14) tbd import ijson
+
+#Stage 0: acqure
+Acquaring data was achived using https://github.com/vysheng/tg telegram command line client and https://github.com/tvdstaaij/telegram-history-dump ruby script for message dumping.
+Result of dump can be found here https://drive.google.com/open?id=0B087siVevjlkUUNxb1RnWGlpYjA
+Then resulting json was formatted using jq, formatted json can be found here https://drive.google.com/open?id=0B087siVevjlkejFNU25CbHNqamM
+
+#Stage 0.5 preliminary Analysis
+Was done with Apache Drill queryes to flat json file. Results are represented in Apache Zeppelin and can be found here https://www.zepl.com/viewer/notebooks/bm90ZTovL2xvYnppc29uL2UyZGVjZWZiNTM1MDRiZDdiZjFhYTQxYTliMTU4ZGQyL25vdGUuanNvbg
