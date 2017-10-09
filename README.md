@@ -24,3 +24,5 @@ Then resulting json was formatted using jq, formatted json can be found here htt
 
 #Stage 0.5 preliminary Analysis
 Was done with Apache Drill queryes to flat json file. Results are represented in Apache Zeppelin and can be found here https://www.zepl.com/viewer/notebooks/bm90ZTovL2xvYnppc29uL2UyZGVjZWZiNTM1MDRiZDdiZjFhYTQxYTliMTU4ZGQyL25vdGUuanNvbg
+
+ 
