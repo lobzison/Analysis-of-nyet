@@ -22,12 +22,6 @@ Acquaring data was achived using [telegram command line client][1] and [ruby scr
 Result of dump can be found [here][3] 
 Then resulting json was formatted using jq, formatted json can be found [here][4]
 
-<<<<<<< HEAD
-#Stage 0.5 preliminary Analysis
-Was done with Apache Drill queryes to flat json file. Results are represented in Apache Zeppelin and can be found here https://www.zepl.com/viewer/notebooks/bm90ZTovL2xvYnppc29uL2UyZGVjZWZiNTM1MDRiZDdiZjFhYTQxYTliMTU4ZGQyL25vdGUuanNvbg
-
- 
-=======
 # Stage 0.5 preliminary Analysis
 Was done with Apache Drill queryes to flat json file. Results are represented in Apache Zeppelin and can be found [here][5]
 
@@ -36,4 +30,3 @@ Was done with Apache Drill queryes to flat json file. Results are represented in
 [3]: https://drive.google.com/open?id=0B087siVevjlkUUNxb1RnWGlpYjA
 [4]: https://drive.google.com/open?id=0B087siVevjlkejFNU25CbHNqamM
 [5]: https://www.zepl.com/viewer/notebooks/bm90ZTovL2xvYnppc29uL2UyZGVjZWZiNTM1MDRiZDdiZjFhYTQxYTliMTU4ZGQyL25vdGUuanNvbg
->>>>>>> 9608e7581f4d6ff46cef7f2d3806b6672aaf6c09
