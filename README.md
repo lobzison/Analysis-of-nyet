@@ -17,12 +17,23 @@ Downloading a data from a telegram chat, and doing analytics on it
 13) Count "heatness" of convo. The lower delay between the messages/higher symbols per minute - the hotter the conversation is
 14) tbd import ijson
 
-#Stage 0: acqure
-Acquaring data was achived using https://github.com/vysheng/tg telegram command line client and https://github.com/tvdstaaij/telegram-history-dump ruby script for message dumping.
-Result of dump can be found here https://drive.google.com/open?id=0B087siVevjlkUUNxb1RnWGlpYjA
-Then resulting json was formatted using jq, formatted json can be found here https://drive.google.com/open?id=0B087siVevjlkejFNU25CbHNqamM
+# Stage 0: acqure
+Acquaring data was achived using [telegram command line client][1] and [ruby script for message dumping][2].
+Result of dump can be found [here][3] 
+Then resulting json was formatted using jq, formatted json can be found [here][4]
 
+<<<<<<< HEAD
 #Stage 0.5 preliminary Analysis
 Was done with Apache Drill queryes to flat json file. Results are represented in Apache Zeppelin and can be found here https://www.zepl.com/viewer/notebooks/bm90ZTovL2xvYnppc29uL2UyZGVjZWZiNTM1MDRiZDdiZjFhYTQxYTliMTU4ZGQyL25vdGUuanNvbg
 
  
+=======
+# Stage 0.5 preliminary Analysis
+Was done with Apache Drill queryes to flat json file. Results are represented in Apache Zeppelin and can be found [here][5]
+
+[1]: https://github.com/vysheng/tg 
+[2]: https://github.com/tvdstaaij/telegram-history-dump 
+[3]: https://drive.google.com/open?id=0B087siVevjlkUUNxb1RnWGlpYjA
+[4]: https://drive.google.com/open?id=0B087siVevjlkejFNU25CbHNqamM
+[5]: https://www.zepl.com/viewer/notebooks/bm90ZTovL2xvYnppc29uL2UyZGVjZWZiNTM1MDRiZDdiZjFhYTQxYTliMTU4ZGQyL25vdGUuanNvbg
+>>>>>>> 9608e7581f4d6ff46cef7f2d3806b6672aaf6c09
