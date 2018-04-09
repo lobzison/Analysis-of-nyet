@@ -1,4 +1,4 @@
-# Analysis of nyet
+# Analysis of telegram chat
 Downloading a data from a telegram chat, and doing analytics on it
 
 # Questions to answer
