@@ -16,8 +16,7 @@ Downloading a data from a telegram chat, and doing analytics on it
 
 # Stage 0: acqure
 Acquaring data was achived using [telegram command line client][1] and [ruby script for message dumping][2].
-Result of dump can be found [here][3] 
-Then resulting json was formatted using jq, formatted json can be found [here][4]
+Result of dump can be found [here][3]
 
 # Stage 0.5 preliminary Analysis
 Was done with Apache Drill queryes to flat json file. Results are represented in Apache Zeppelin and can be found [here][5]
